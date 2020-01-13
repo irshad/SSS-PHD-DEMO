@@ -1,0 +1,45 @@
+/*****************************************Template styling***********************************************/
+body {
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color : #d6d7d8; 
+    color : #000;
+}
+
+#home {
+    color : #000;
+}
+
+#sssrenderer-header {
+    color : #0f0f5c;
+}
+
+#sssrenderer-desc {
+    font-size : 20px !important;
+} 
+
+footer {
+    background-color : #d6d7d8;
+    color : #000;
+    padding : 32px;
+}
+
+footer a {
+    color: #337ab7 !important;
+    text-decoration: none;
+}
+
+/*************************************url form styling************************************************/
+#welcome_desc {
+    color : #000;
+}
+
+#logout {
+    color: #000; 
+}
+
+#urlform {
+    padding : 7%;
+}
