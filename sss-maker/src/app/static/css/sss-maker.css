@@ -1,0 +1,52 @@
+/*****************************************Template styling***********************************************/
+body {
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color : #d6d7d8; 
+    color : #000;
+}
+
+#home {
+    color : #000;
+}
+
+#sssmaker-header {
+    color : #0f0f5c;
+}
+
+#sssmaker-desc {
+    font-size : 20px !important;
+} 
+
+footer {
+    background-color : #d6d7d8;
+    color : #000;
+    padding : 32px;
+}
+
+footer a {
+    color: #337ab7 !important;
+    text-decoration: none;
+}
+
+/******************************************Success page styling***************************************/
+#success_page {
+    color : #0f0f5c;
+    padding : 9%;
+    text-align : center;
+}
+
+/*************************************url form styling************************************************/
+#welcome_desc {
+    color : #000;
+}
+
+#logout {
+    color: #000; 
+}
+
+#urlform {
+    padding : 7%;
+}

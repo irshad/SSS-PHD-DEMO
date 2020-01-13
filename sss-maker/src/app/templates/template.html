@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>sss-maker</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'sss-maker.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    {% block head %} {% endblock %}
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="container-fluid bg-2 text-center">
+          <h3>SSS Maker Studio</h3>
+          <div class="text-right"><a href="/" id="home">Home</a></div>
+        </div>
+      </header>
+      <div class="jumbotron">
+        <h3 id="sssmaker-header">SSS-Maker</h3>
+        <p id="sssmaker-desc">SSS-Maker allows renarrators/admin
+          to create a "Semantic Style Sheet Abstract data
+          Model(SSS-ADM)" using SSS-Annolet. This SSS is
+          stored in database for subsequent retrieval by the
+          sss-renderer.
+        </p>
+      </div>
+      {% block body %}{% endblock %}
+      <br>
+      <footer class="text-center">
+        <p>Posted by: Sai Gollapudi</p>
+        <p>Contact information: <a href="mailto:saigollapudi1@gmail.com">saigollapudi1@gmail.com</a></p>
+      </footer>
+    </div>
+    {% block script %} {% endblock %}
+  </body>
+</html>
