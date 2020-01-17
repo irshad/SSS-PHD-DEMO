@@ -30,13 +30,13 @@ Then webservices will launch at http://127.0.0:4000 which no need to open
 
 ## SSS-Renerer
 
-+ cd desktop/sss-phd-demo/sss-Renderer/src/app/venv/scripts
++ cd desktop/sss-phd-demo/sss-renderer/src/app/venv/scripts
 + activate
 + cd ../..
 + python app.py
 
 ### Now Launch the webxfrmtn-engine
-+ cd desktop/SSS-PHD-DEMO/sss-renderer/src/webxfrmtn-engine/venv/scripts
++ cd desktop/sss-phd-demo/sss-renderer/src/webxfrmtn-engine/venv/scripts
 + activate
 + cd ../..
 + python webxfrmtn-engine-api.py
