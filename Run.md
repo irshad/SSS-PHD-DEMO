@@ -42,7 +42,3 @@ Then renderer will launch at https://127.0.0:8090 this is Renderer Studio
 + python webxfrmtn-engine-api.py
 
 Then it will open at https://127.0.0.1:8006 which no need to open
-
-Name: Shaik Irshadali
-A/c No. 918500085555
-IFSC: PYTM0123456
