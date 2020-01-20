@@ -3,7 +3,7 @@ import time
 # import selenium webdriver module
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.proxy import *
+from selenium.webdriver.common.proxy import Proxy
 # from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 # from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 # import os
@@ -101,11 +101,11 @@ class Operations:
 					if 'addyt' in acpair_obj:
 						#seq = acpair_obj['addnote']['id']
 						video_id = acpair_obj['addnote']['srcloc']
-						self.addNode_note(video_id = video_id, xpath = xpath, pattern = pattern)
+						self.addNode_yt(video_id = video_id, xpath = xpath, pattern = pattern)
 					if 'addnote' in acpair_obj:
 						#seq = acpair_obj['addnote']['id']
-						note = acpair_obj['addnote']['srcloc']
-						self.addNode_yt(note = new_note, xpath = xpath, pattern = pattern)
+						new_note = acpair_obj['addnote']['srcloc']
+						self.addNode_note(note = new_note, xpath = xpath, pattern = pattern)
 					if 'addlink' in acpair_obj:
 						#seq = acpair_obj['addlink']['id']
 						url = acpair_obj['addlink']['srcloc']
