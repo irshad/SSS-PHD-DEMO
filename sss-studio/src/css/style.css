@@ -1,0 +1,96 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+/* -------------------------- Text ------------------------------------------- */
+h3 {
+    font-weight: bold !important;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+/* -------------------------- Buttons -------------------------------------- */
+.btn-primary {
+    background-color: #0f0f5c !important;
+    border: none !important;
+    box-shadow: 5px 5px 5px 5px rgb(211, 211, 211);
+}
+
+.btn-primary:hover {
+    background-color: rgb(223, 223, 223) !important;
+    color: #0f0f5c !important;
+    box-shadow: 5px 5px #0f0f5c !important;
+
+}
+
+/* ---------------------------- Main Header ---------------------------------- */
+.jumb {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    box-shadow: 3px 5px 5px 5px rgb(211, 211, 211);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #0f0f5c;
+}
+
+/* ----------------------------- Header ----------------------------------------- */
+#studio-header {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#overview {
+    font-size: 20px;
+}
+
+/* ----------------------------- Box's ------------------------------------------*/
+#ren-box {
+    padding: 20px;
+}
+
+#sss-box {
+    padding: 15px;
+}
+
+.explanation {
+    font-size: 15px;
+}
+
+.two {
+    border-radius: 15px;
+}
+
+/* ----------------------------- Main Question Header ----------------------------- */
+#question-header {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+footer {
+    height: 9%;
+    font-size: 126%;
+    padding: 3%;
+    color: black;
+}
+
+#mail {
+    color: #0f0f5c;
+    font-weight: 600;
+}
+
+/* ------------------------------- Media Query's ------------------------------------- */
+@media (max-width: 500px) {
+    .btn-primary {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .btn-primary {
+        margin: 10px;
+    }
+}
