@@ -1,54 +1,12 @@
-# index
+# sss-webapp-demo
 
-Steps to run sss-framework
-
-* Pre-requisites
-+ Install Virtual Box with Ubuntu 16.04 
-  (If linux is not installed on your machine)
-+ MongoDB
-+ Python 
-+ Flask 
-
-* Setup Database locally
-  + Create database "sss-dsl" 
-  	use sss-dsl
-  + Create collections
-  	use user-info
-  	use sss-info
-
-1. First run sss-persistance services
-   + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-persistance.git 
-   + cd sss-persistance/src
-   + bash setup.sh
-   + source venv/bin/activate
-   + python app.py
-
-2. Run sss-maker
-   + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-maker.git
-   + cd sss-maker/src/app
-   + bash setup.sh
-   + source sss-maker-venv/bin/activate
-   + python app.py
-   + CTRL+SHFT+T
-   + cd ../webservices
-   + bash setup.sh
-   + source flask/bin/activate
-   + python service.py
-   + Open browser : http://localhost:8080
-
-3. Run sss-renderer
-   + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-renderer.git
-   + cd sss-renderer/src/app
-   + bash setup.sh
-   + source sss-renderer-venv/bin/activate
-   + python app.py
-   + CTRL+SHFT+T
-   + cd ../webxfrmtn-engine
-   + bash setup.sh
-   + source venv/bin/activate
-   + python webxfrmtn-engine-api.py
-   + Open browser : http://localhost:8090
-
-
-
-
++ SSS-webapp-demo is a project dedicated to the visual / front-end of the SSS-renarration work
++ SSS stands for Semantic Style Sheets... this is a method for achieving renarration
++ in this project we are creating the front-end web application which invokes the renarration rendering engine (SSS-renderer) in the backend
++ created by Sai Gollapudi on 21 Dec, 2019. 
++ Project created to demo the power of renarration (for Sai Gollapudi's PhD Viva defense)
++ Dev branch work is being done by Irshad Ali (hello@phonerefer.com)
++ 
+Branches include
++ Master (starting)
++ Dev (where development work is happening)
