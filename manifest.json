@@ -1,0 +1,26 @@
+{
+    "name": "SSS MAKER",
+    "short_name": "SSS",
+    "icons": [
+        {
+            "src": "src/img/sss-icon-92x92.png",
+            "sizes": "92x92",
+            "type": "image/png"
+        },
+        {
+            "src": "src/img/sss-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "src/img/sss-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }        
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#0f0f5c",
+    "theme_color": "#0f0f5c"
+}
