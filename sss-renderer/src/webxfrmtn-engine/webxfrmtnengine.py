@@ -70,7 +70,7 @@ class Operations:
 		"""
 		Add a new span elment node 
 		"""	
-		self.driver.execute_script('''addNode_link("{}", "{}", "{}", "{}")'''.format(seq, url, text.encode('utf-8'), xpath, pattern))
+		self.driver.execute_script('''addNode_link("{}", "{}", "{}", "{}")'''.format(seq, url, xpath, pattern))
 		return
 
 	def getNewPageSource(self):
