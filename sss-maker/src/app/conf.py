@@ -2,7 +2,7 @@ SECRET_KEY = ('dshgfcjsd',) # some long string
 DATABASE = ('sss-dsl',) # Database connection
 USERS_COLLECTION= ['user-info'] # users info collection
 # To run app on local machine
-HOST = ['127.0.0.1']
+HOST = ['localhost'] # Removed 127.0.0.1 + Added localhost
 PORT = [8080]
 # Uncomment below lines to run the app on remote machine / server
 # HOST = ['0.0.0.0']
