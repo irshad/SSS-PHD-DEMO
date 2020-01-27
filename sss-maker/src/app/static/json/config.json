@@ -6,9 +6,9 @@
          "SEMANTIC_ICON_FORM_URL" : "static/js/sss-annolet/semantics-form.js",
          "SAVE_ICON_FORM_URL" : "static/js/sss-annolet/info-form.js",
          "STRUCT_ACTNS_ATTRS_URL" : "static/js/sss-annolet/struct-actns-attrs.js",
-         "LANG_TRANS_API_URL" : "http://127.0.0.1:4000/language-translive",
-         "CURR_CONV_API_URL" : "http://127.0.0.1:4000/currency-conv",
+         "LANG_TRANS_API_URL" : "http://localhost:4000/language-translive",
+         "CURR_CONV_API_URL" : "http://localhost:4000/currency-conv",
          "IP_TRACKING_API_URL" : "https://json.geoiplookup.io",
-         "SSS_DB_API_URL" : "http://127.0.0.1:5000/api/update/sss/"
+         "SSS_DB_API_URL" : "http://localhost:5000/api/update/sss/"
    }
 }
