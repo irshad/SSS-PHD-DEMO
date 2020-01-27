@@ -20,19 +20,19 @@ Steps to run sss-framework
    + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-persistance.git 
    + cd sss-persistance/src
    + bash setup.sh
-   + source venv/bin/activate
+   + cd venv/scripts/activate
    + python app.py
 
 2. Run sss-maker
    + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-maker.git
    + cd sss-maker/src/app
    + bash setup.sh
-   + source sss-maker-venv/bin/activate
+   + cd venv/scripts/activate
    + python app.py
    + CTRL+SHFT+T
    + cd ../webservices
    + bash setup.sh
-   + source flask/bin/activate
+   + cd venv/scripts/activate
    + python service.py
    + Open browser : http://localhost:8080
 
@@ -40,12 +40,12 @@ Steps to run sss-framework
    + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-renderer.git
    + cd sss-renderer/src/app
    + bash setup.sh
-   + source sss-renderer-venv/bin/activate
+   + cd venv/bin/activate
    + python app.py
    + CTRL+SHFT+T
    + cd ../webxfrmtn-engine
    + bash setup.sh
-   + source venv/bin/activate
+   + cd venv/scripts/activate
    + python webxfrmtn-engine-api.py
    + Open browser : http://localhost:8090
 
