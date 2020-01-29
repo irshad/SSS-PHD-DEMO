@@ -40,7 +40,7 @@ Steps to run sss-framework
    + git clone https://gitlab.com/renarration/prototypes/sss-framework/sss-renderer.git
    + cd sss-renderer/src/app
    + bash setup.sh
-   + cd venv/bin/activate
+   + cd venv/scripts/activate
    + python app.py
    + CTRL+SHFT+T
    + cd ../webxfrmtn-engine
