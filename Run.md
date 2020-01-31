@@ -5,7 +5,7 @@
 + cd ../..
 + python app.py
 
-Then persistance will launch at http://127.0.0.1:5000 which no need to open
+Then persistance will launch at http://127.0.0.1:5000
 
 
 ## SSS-Maker
@@ -24,7 +24,7 @@ Then maker will launch at http://127.0.0.1:8080 this is Maker Studio
 + cd ../..
 + python service.py
 
-Then webservices will launch at http://127.0.0:4000 which no need to open
+Then webservices will launch at http://127.0.0:4000
 
 ## SSS-Renerer
 
@@ -41,4 +41,4 @@ Then renderer will launch at https://127.0.0:8090 this is Renderer Studio
 + cd ../..
 + python webxfrmtn-engine-api.py
 
-Then it will open at https://127.0.0.1:8006 which no need to open
+Then it will open at https://127.0.0.1:8006
