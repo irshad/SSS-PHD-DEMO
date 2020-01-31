@@ -14,7 +14,7 @@ DATABASE_NAME = str('sss-dsl') #required
 
 # Name the collections for storing user profiles and sss information.
 # Collections with these name will be created if not existing already
-USER_COLLECTION_NAME = str(' ') #required
+USER_COLLECTION_NAME = str('user-info') #required
 SSS_COLLECTION_NAME = str('sss-info') #required
 
 # Only one =SERVER_URI= is to be filled
