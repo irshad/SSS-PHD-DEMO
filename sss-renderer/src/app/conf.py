@@ -11,9 +11,9 @@ HOST = ['0.0.0.0']
 PORT = [8090]
 
 # SSS-DB address (To modify the host name to server address change hostname in 'SSS_DB_HOST_ADRS')  
-SSS_DB_HOST_ADRS = ['localhost'] # Removed 127.0.0.1
+SSS_DB_HOST_ADRS = ['0.0.0.0'] # Removed 127.0.0.1
 SSS_DB_PORT_ADRS = [5000]
 
 # Web transformation engine API address (To modify the host name to server address change hostname in 'XFORM_API_HOST_ADRS')
-XFORM_API_HOST_ADRS = ['localhost'] # Removed 127.0.0.1
+XFORM_API_HOST_ADRS = ['0.0.0.0'] # Removed 127.0.0.1
 XFORM_API_PORT_ADRS = [8006]

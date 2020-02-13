@@ -4,10 +4,10 @@
 		{% if messages %}
 			{% for message in messages %}
 				{% if role == "RenarratorUser" %}
-					<p><h3 id="success_page" > {{ message }}<br><br> Sign into <a href="http://127.0.0.1:8080">sss-maker</a> to renarrate a webpage or <a href="http://127.0.0.1:8090">sss-renderer</a> to view the page renarrations</h3></p>
+					<p><h3 id="success_page" > {{ message }}<br><br> Sign into <a href="http://52.14.58.146:8080">sss-maker</a> to renarrate a webpage or <a href="http://52.14.58.146:8090">sss-renderer</a> to view the page renarrations</h3></p>
 				{% endif %}
 				{% if role == "NormalUser" %}
-					<p><h3 id="success_page" > {{ message }}<br><br> Sign into <a href="http://127.0.0.1:8090">sss-renderer</a> to view the page renarrations </h3></p>
+					<p><h3 id="success_page" > {{ message }}<br><br> Sign into <a href="http://52.14.58.146:8090">sss-renderer</a> to view the page renarrations </h3></p>
 				{% endif %}
 			{% endfor %}
 		{% endif %}
