@@ -14,6 +14,7 @@ from io import StringIO
 import lxml.html
 import bcrypt
 import conf
+import urllib
 
 app = Flask(__name__)
 CORS(app)
